@@ -98,7 +98,7 @@ public class Main{
     }
     public static String getRandomWord(String lang ){
         try {
-            String string = choose(new File("C:/Users/user.OCHAG/IdeaProjects/Виселица/src/main/resources/words_" + lang +".txt"));
+            String string = choose(new File("/words_" + lang +".txt"));
             return string;
         } catch (FileNotFoundException e) {
         }
